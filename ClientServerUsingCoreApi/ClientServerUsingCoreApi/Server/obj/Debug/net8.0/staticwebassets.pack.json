@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\ff",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\images3.png.png",
+      "PackagePath": "staticwebassets\\images\\images3.png.png"
+    },
+    {
+      "Id": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\images4.png.png",
+      "PackagePath": "staticwebassets\\images\\images4.png.png"
+    },
+    {
+      "Id": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\images7.jpg.png",
+      "PackagePath": "staticwebassets\\images\\images7.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\imgnew.png",
+      "PackagePath": "staticwebassets\\images\\imgnew.png"
+    },
+    {
+      "Id": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\noimage4.png.png",
+      "PackagePath": "staticwebassets\\images\\noimage4.png.png"
+    },
+    {
+      "Id": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\ss.png",
+      "PackagePath": "staticwebassets\\images\\ss.png"
+    },
+    {
+      "Id": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\tt",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\tt.png",
+      "PackagePath": "staticwebassets\\images\\tt.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Server.props",
+      "PackagePath": "build\\Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Server.props",
+      "PackagePath": "buildMultiTargeting\\Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Server.props",
+      "PackagePath": "buildTransitive\\Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

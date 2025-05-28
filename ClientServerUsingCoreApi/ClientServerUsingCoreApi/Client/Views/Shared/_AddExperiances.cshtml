@@ -1,0 +1,28 @@
+﻿
+@model List<Client.Models.Experience>
+<table id="Ext" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Duration</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(Model!=null){
+            @for(int i=0; i<Model.Count;i++){
+                <tr>
+                    <td>
+                        <input type="text" class="form-control" name="Experiences[@i].Title" value="@Model[i].Title" />
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" name="Experiences[@i].Duration" value="@Model[i].Duration" />
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-danger" onclick="DeleteRow(this)">Remove</button>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

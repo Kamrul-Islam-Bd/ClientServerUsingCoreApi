@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "s9rPecU1GhgWYaCNl7h9E2x7Cix/5Hi8WBxPfEn/Vbg=",
+  "Source": "Client",
+  "BasePath": "_content/Client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Client\\wwwroot",
+      "Source": "Client",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Client\\wwwroot\\",
+      "BasePath": "_content/Client",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Client\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "SourceId": "Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Client\\wwwroot\\",
+      "BasePath": "_content/Client",
+      "RelativePath": "bootstrap/css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "46ein0sx1k",
+      "Integrity": "PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Client\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "SourceId": "Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Client\\wwwroot\\",
+      "BasePath": "_content/Client",
+      "RelativePath": "bootstrap/js/bootstrap.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "63fj8s7r0e",
+      "Integrity": "3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Client\\wwwroot\\jquery\\jquery.min.js",
+      "SourceId": "Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Client\\wwwroot\\",
+      "BasePath": "_content/Client",
+      "RelativePath": "jquery/jquery.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1o13a6vjx",
+      "Integrity": "/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery\\jquery.min.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "bootstrap/css/bootstrap.min.46ein0sx1k.css",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Client\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:20:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "46ein0sx1k"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Client\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:20:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/js/bootstrap.min.63fj8s7r0e.js",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Client\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:20:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "63fj8s7r0e"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/js/bootstrap.min.js",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Client\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:20:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.js",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Client\\wwwroot\\jquery\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:21:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.o1o13a6vjx.js",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Client\\wwwroot\\jquery\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:21:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    }
+  ]
+}

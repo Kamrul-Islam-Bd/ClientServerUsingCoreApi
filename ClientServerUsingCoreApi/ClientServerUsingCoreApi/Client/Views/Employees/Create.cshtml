@@ -1,0 +1,98 @@
+﻿@model Client.Models.ViewModels.EmployeeViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<div class="row">
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="col-md-6">
+        <h4>Employee Info</h4>
+        
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="EmployeeName" class="control-label"></label>
+                <input asp-for="EmployeeName" class="form-control" />
+                <span asp-validation-for="EmployeeName" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="JoinDate" class="control-label"></label>
+                <input asp-for="JoinDate" class="form-control" />
+                <span asp-validation-for="JoinDate" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2 mb-2">
+                <input onchange="ReadUrl(this)" type="file" name="ProfileFile" id="ProfileFile" class="form-control" />
+                <img id="ImgFile" src="" alt="alt" width="80" class="mt-2" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+       
+    </div>
+    <div class="col-md-6">
+        <h4>Experiences</h4>
+        <button type="button" onclick="AddExp()" class="btn btn-secondary btn-sm">Add New</button>
+        @Html.Partial("_AddExperiances", Model.Experiences)
+    </div>
+     </form>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+<script src="~/jquery/jquery.min.js"></script>
+<script>
+    function ReadUrl(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $('#ImgFile').attr('src', e.target.result);
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    function AddExp()
+    {
+        var newRow=`
+        <tr class="mb-3">
+       <td>
+                        <input type="text" class="form-control" name="Experiences[${$("#Ext tbody tr").length}].Title"  />
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" name="Experiences[${$("#Ext tbody tr").length}].Duration"  />
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-danger" onclick="DeleteRow(this)">Remove</button>
+                    </td>
+        </tr>
+        `;
+        $("#Ext tbody").append(newRow);
+        UpdateExperianceIndex();
+    }
+    function UpdateExperianceIndex(){
+        $("#Ext tbody tr").each(function (index) {
+            $(this).find("input[name^=Experiences]").each(function () {
+                var name = $(this).attr("name");
+                if (name) {
+                    var newName = name.replace(/Experiences\[\d+\]/, `Experiences[${index}]`);
+                    $(this).attr("name", newName);
+                }
+            });
+        });
+    }
+    function DeleteRow(button) {
+        $(button).closest("tr").remove();
+        UpdateExperianceIndex();
+    }
+</script>
+

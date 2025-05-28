@@ -1,0 +1,949 @@
+{
+  "Version": 1,
+  "Hash": "qWRl+ejkFYvDXd7uV1wcNH6I9QBD5arO1BlGFaYuWGs=",
+  "Source": "Server",
+  "BasePath": "_content/Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Server\\wwwroot",
+      "Source": "Server",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\ff",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/ff#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ywhnp7muwu",
+      "Integrity": "jjA1Qy494IqpFryleKpo1lRjWfsHuu0nrTgm5ElDDww=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ff"
+    },
+    {
+      "Identity": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\images3.png.png",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/images3.png#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ywhnp7muwu",
+      "Integrity": "jjA1Qy494IqpFryleKpo1lRjWfsHuu0nrTgm5ElDDww=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images3.png.png"
+    },
+    {
+      "Identity": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\images4.png.png",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/images4.png#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "imwf27yjho",
+      "Integrity": "6vBoX1iJIsYHe7+mwy7w6bW2qy+QhfMfHav8ZdMfhIk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images4.png.png"
+    },
+    {
+      "Identity": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\images7.jpg.png",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/images7.jpg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2wxcz323fi",
+      "Integrity": "bvqV21wDnhinlIeMLruyCtAotOaXMA0cnlo9eFLUDd4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images7.jpg.png"
+    },
+    {
+      "Identity": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\imgnew.png",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/imgnew#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2wxcz323fi",
+      "Integrity": "bvqV21wDnhinlIeMLruyCtAotOaXMA0cnlo9eFLUDd4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\imgnew.png"
+    },
+    {
+      "Identity": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\noimage4.png.png",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/noimage4.png#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ot49t63fqr",
+      "Integrity": "VHppt+RgYxXjBcFcd+JoGv3UYMnUFQCvMGOh+/WkJjA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\noimage4.png.png"
+    },
+    {
+      "Identity": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\ss.png",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/ss#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ot49t63fqr",
+      "Integrity": "VHppt+RgYxXjBcFcd+JoGv3UYMnUFQCvMGOh+/WkJjA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ss.png"
+    },
+    {
+      "Identity": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\tt",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/tt#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1y0pfuu4pv",
+      "Integrity": "96dcOolWtdvuapz8rwZ6dlcl6Sc2Z411tovQE/VrSJM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tt"
+    },
+    {
+      "Identity": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\tt.png",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/tt#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1y0pfuu4pv",
+      "Integrity": "96dcOolWtdvuapz8rwZ6dlcl6Sc2Z411tovQE/VrSJM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tt.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/ff",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\ff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jjA1Qy494IqpFryleKpo1lRjWfsHuu0nrTgm5ElDDww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 10:54:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jjA1Qy494IqpFryleKpo1lRjWfsHuu0nrTgm5ElDDww="
+        }
+      ]
+    },
+    {
+      "Route": "images/ff.ywhnp7muwu",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\ff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jjA1Qy494IqpFryleKpo1lRjWfsHuu0nrTgm5ElDDww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 10:54:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ywhnp7muwu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jjA1Qy494IqpFryleKpo1lRjWfsHuu0nrTgm5ElDDww="
+        }
+      ]
+    },
+    {
+      "Route": "images/images3.png.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\images3.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jjA1Qy494IqpFryleKpo1lRjWfsHuu0nrTgm5ElDDww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 11:52:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jjA1Qy494IqpFryleKpo1lRjWfsHuu0nrTgm5ElDDww="
+        }
+      ]
+    },
+    {
+      "Route": "images/images3.png.ywhnp7muwu.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\images3.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jjA1Qy494IqpFryleKpo1lRjWfsHuu0nrTgm5ElDDww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 11:52:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ywhnp7muwu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/images3.png.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jjA1Qy494IqpFryleKpo1lRjWfsHuu0nrTgm5ElDDww="
+        }
+      ]
+    },
+    {
+      "Route": "images/images4.png.imwf27yjho.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\images4.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2743"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6vBoX1iJIsYHe7+mwy7w6bW2qy+QhfMfHav8ZdMfhIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 12:47:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "imwf27yjho"
+        },
+        {
+          "Name": "label",
+          "Value": "images/images4.png.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6vBoX1iJIsYHe7+mwy7w6bW2qy+QhfMfHav8ZdMfhIk="
+        }
+      ]
+    },
+    {
+      "Route": "images/images4.png.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\images4.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2743"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6vBoX1iJIsYHe7+mwy7w6bW2qy+QhfMfHav8ZdMfhIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 12:47:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6vBoX1iJIsYHe7+mwy7w6bW2qy+QhfMfHav8ZdMfhIk="
+        }
+      ]
+    },
+    {
+      "Route": "images/images7.jpg.2wxcz323fi.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\images7.jpg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bvqV21wDnhinlIeMLruyCtAotOaXMA0cnlo9eFLUDd4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 12:47:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2wxcz323fi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/images7.jpg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bvqV21wDnhinlIeMLruyCtAotOaXMA0cnlo9eFLUDd4="
+        }
+      ]
+    },
+    {
+      "Route": "images/images7.jpg.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\images7.jpg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bvqV21wDnhinlIeMLruyCtAotOaXMA0cnlo9eFLUDd4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 12:47:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bvqV21wDnhinlIeMLruyCtAotOaXMA0cnlo9eFLUDd4="
+        }
+      ]
+    },
+    {
+      "Route": "images/imgnew.2wxcz323fi.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\imgnew.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bvqV21wDnhinlIeMLruyCtAotOaXMA0cnlo9eFLUDd4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 12:06:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2wxcz323fi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/imgnew.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bvqV21wDnhinlIeMLruyCtAotOaXMA0cnlo9eFLUDd4="
+        }
+      ]
+    },
+    {
+      "Route": "images/imgnew.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\imgnew.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bvqV21wDnhinlIeMLruyCtAotOaXMA0cnlo9eFLUDd4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 12:06:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bvqV21wDnhinlIeMLruyCtAotOaXMA0cnlo9eFLUDd4="
+        }
+      ]
+    },
+    {
+      "Route": "images/noimage4.png.ot49t63fqr.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\noimage4.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VHppt+RgYxXjBcFcd+JoGv3UYMnUFQCvMGOh+/WkJjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 09:50:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ot49t63fqr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/noimage4.png.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VHppt+RgYxXjBcFcd+JoGv3UYMnUFQCvMGOh+/WkJjA="
+        }
+      ]
+    },
+    {
+      "Route": "images/noimage4.png.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\noimage4.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VHppt+RgYxXjBcFcd+JoGv3UYMnUFQCvMGOh+/WkJjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 09:50:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VHppt+RgYxXjBcFcd+JoGv3UYMnUFQCvMGOh+/WkJjA="
+        }
+      ]
+    },
+    {
+      "Route": "images/ss.ot49t63fqr.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\ss.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VHppt+RgYxXjBcFcd+JoGv3UYMnUFQCvMGOh+/WkJjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:03:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ot49t63fqr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ss.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VHppt+RgYxXjBcFcd+JoGv3UYMnUFQCvMGOh+/WkJjA="
+        }
+      ]
+    },
+    {
+      "Route": "images/ss.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\ss.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VHppt+RgYxXjBcFcd+JoGv3UYMnUFQCvMGOh+/WkJjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:03:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VHppt+RgYxXjBcFcd+JoGv3UYMnUFQCvMGOh+/WkJjA="
+        }
+      ]
+    },
+    {
+      "Route": "images/tt",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\tt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"96dcOolWtdvuapz8rwZ6dlcl6Sc2Z411tovQE/VrSJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 10:59:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-96dcOolWtdvuapz8rwZ6dlcl6Sc2Z411tovQE/VrSJM="
+        }
+      ]
+    },
+    {
+      "Route": "images/tt.1y0pfuu4pv",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\tt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"96dcOolWtdvuapz8rwZ6dlcl6Sc2Z411tovQE/VrSJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 10:59:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1y0pfuu4pv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-96dcOolWtdvuapz8rwZ6dlcl6Sc2Z411tovQE/VrSJM="
+        }
+      ]
+    },
+    {
+      "Route": "images/tt.1y0pfuu4pv.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\tt.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"96dcOolWtdvuapz8rwZ6dlcl6Sc2Z411tovQE/VrSJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 11:00:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1y0pfuu4pv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tt.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-96dcOolWtdvuapz8rwZ6dlcl6Sc2Z411tovQE/VrSJM="
+        }
+      ]
+    },
+    {
+      "Route": "images/tt.png",
+      "AssetFile": "C:\\Users\\WALTON\\Desktop\\Book\\ClientServerUsingCoreApi\\ClientServerUsingCoreApi\\Server\\wwwroot\\images\\tt.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"96dcOolWtdvuapz8rwZ6dlcl6Sc2Z411tovQE/VrSJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 11:00:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-96dcOolWtdvuapz8rwZ6dlcl6Sc2Z411tovQE/VrSJM="
+        }
+      ]
+    }
+  ]
+}

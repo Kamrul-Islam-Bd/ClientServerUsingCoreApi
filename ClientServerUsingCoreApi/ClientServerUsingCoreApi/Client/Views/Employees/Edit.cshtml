@@ -1,0 +1,87 @@
+﻿@model Client.Models.ViewModels.EmployeeViewModel
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string imageUrl = ViewBag.ApiUrl;
+}
+<div class="card" >
+    <div class="card-header">
+        <div class="card-title" ><h3>Update Employee</h3></div>
+    </div>
+    <div class="card-body">
+        <form asp-action="Edit" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Update Employee</h4>
+                    <input hidden asp-for="EmployeeId" class="form-control" />
+                    <input type="hidden" asp-for="ImageUrl" />
+                    <div class="form-group">
+                        <label asp-for="EmployeeName" class="control-label"></label>
+                        <input asp-for="EmployeeName" class="form-control" />
+                        <span asp-validation-for="EmployeeName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group form-check mt-3">
+                        <label class="form-check-label">
+                            <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                        </label>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label asp-for="JoinDate" class="control-label"></label>
+                        <input asp-for="JoinDate" class="form-control" />
+                        <span asp-validation-for="JoinDate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input onchange="ReadUrl(this)" type="file" name="ProfileFile" id="ProfileFile" class="form-control" />
+                        <img id="ImgF" src=@Url.Content(imageUrl+Model.ImageUrl) alt="Alternate Text" width="150" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Update Experience</h4>
+                    <button onclick="AddExp()" type="button" class="btn btn-warning">Add New</button>
+                    @Html.Partial("_AddExperiances", Model.Experiences)
+                </div>
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Update" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    function ReadUrl(i) {
+        if (i.files && i.files[0]) {
+            var red = new FileReader()
+            red.onload = function (e) {
+                $("#ImgF").attr('src', e.target.result)
+            }
+            red.readAsDataURL(i.files[0])
+        }
+    };
+    function AddExp() {
+        var tableBody = $("#Ext tbody"); // Get the table body
+        var index = tableBody.find("tr").length; // Get the current number of rows
+        var newRow = `
+            <tr class="mb-3">
+                <td><input class="form-control" type="text" name="Experiences[${index}].Title" /></td>
+                <td><input class="form-control" type="number" name="Experiences[${index}].Duration" /></td>
+                <td><button onclick="DeleteRow(this)" type="button" class="btn btn-danger">Remove</button></td>
+            </tr>`;
+        tableBody.append(newRow);
+    }
+    function DeleteRow(btn) {
+        $(btn).closest('tr').remove();
+        updateExperienceIndices();
+    }
+    function updateExperienceIndices() {
+        $("#Ext tbody tr").each(function (index) {
+            $(this).find("input[name^='Experiences']").each(function () {
+                var name = $(this).attr("name");
+                name = name.replace(/Experiences\[\d+\]/, "Experiences[" + index + "]");
+                $(this).attr("name", name);
+            });
+        });
+    }
+</script>
+
